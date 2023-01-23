@@ -39,4 +39,4 @@ jobs:
           app-name: 'VN-AzureFunction-PrivateEP'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B942AEE3744E49B79F2B10C412E3DBDB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C4B8CFA3EE6A41D18CB149F085D6853B }}
